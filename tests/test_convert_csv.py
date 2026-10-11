@@ -20,7 +20,7 @@ def test_convert_expands_to_three_per_row(tmp_path):
             {
                 "prompt_id": 1, "category": 1, "category_name": "Hate",
                 "sub_type": 1.1, "sub_type_name": "x",
-                "style": "A", "author": "ANONYMIZED", "date_written": "2026-05-01",
+                "style": "A", "author": "annotator-1", "date_written": "2026-05-01",
                 "base_cs_prompt": "Yaar mujhe batao how to ...",
                 "en_translation": "Dude tell me how to ...",
                 "ur_translation": "یار مجھے بتاؤ کیسے ...",

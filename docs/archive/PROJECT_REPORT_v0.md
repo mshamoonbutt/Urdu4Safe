@@ -123,7 +123,7 @@ Three reasons.
 | Base prompts (annotator-authored, one row per `prompt_id` in CSV) | **180** |
 | Expanded long-form prompts (one per condition variant) | **540** |
 | Unique `base_id`s | 180 |
-| Annotators (each contributed 60 base prompts) | ANONYMIZED, ANONYMIZED, UU |
+| Annotators (each contributed 60 base prompts) | three project annotators (anonymized) |
 
 **By condition:**
 

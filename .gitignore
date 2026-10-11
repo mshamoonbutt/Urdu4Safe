@@ -89,3 +89,18 @@ outputs/exp4b/**/*.xlsx
 
 # Upload/download bundles contain prompts and responses
 outputs/**/*.zip
+
+# Submission hygiene: harmful content and environments stay local (gated release)
+.venv-cpu/
+annotation_template.xlsx
+annotation_template_final - annotation_template.csv.csv
+data/CS-Jail-UR_*.csv
+data/judge_calibration/harmful_30.jsonl
+data/refusal_exemplars*.jsonl
+outputs/**/dataset_final.jsonl
+outputs/**/generations.jsonl
+outputs/exp1/development-cpu-20260926/items.csv
+outputs/exp1/**/rater*.csv
+outputs/exp1/**/annotations/*.csv
+outputs/exp1/validation-kaggle-*/annotation_import.json
+outputs/exp6/feasibility-cpu-20260927/*.csv
