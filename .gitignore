@@ -104,3 +104,8 @@ outputs/exp1/**/rater*.csv
 outputs/exp1/**/annotations/*.csv
 outputs/exp1/validation-kaggle-*/annotation_import.json
 outputs/exp6/feasibility-cpu-20260927/*.csv
+
+# Internal process docs (team planning; not part of the release)
+docs/TIMELINE.md
+docs/KAGGLE_EXP1_GUIDE.md
+docs/archive/

@@ -1,7 +1,12 @@
-# CS-Jail-UR
+# Urdu4Safe
 
 A safety benchmark and preference-alignment study for **small language models**
 on **code-switched Urdu-English** requests.
+
+> **Naming note:** the benchmark is called **Urdu4Safe** in the paper. Its
+> internal codename during development was **CS-Jail-UR**, which still appears
+> throughout the code (`csjail/` package), file names and documentation here;
+> the two names refer to the same dataset and pipeline.
 
 - **Phase 1 (measure).** How often do SLMs produce harmful assistance when the
   same harmful request is written in English (EN), code-switched Urdu-English
